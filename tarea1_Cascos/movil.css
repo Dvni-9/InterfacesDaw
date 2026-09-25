@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 15px;
+}
+
+
+.tarjeta {
+  background-color: #ffffff;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  gap: 20px;
+}
+
+figure.imagen-box {
+  position: relative;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure.imagen-box img {
+  width: 220px;
+  height: auto;
+  display: block;
+}
+
+.oferta {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #DC2626;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+
+
+.categoria {
+  color: #4B5563;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+h1 {
+  color: #1F2937;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.descripcion {
+  color: #4B5563;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.precios {
+  background-color: #f0f4f8;
+  padding: 10px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.precios del{
+  color:#4B5563;
+
+}
+
+.precio-actual {
+  color: #1F2937;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+
+.stock {
+  color: #16a34a;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 15px 0;
+}
+
+.punto-verde {
+  width: 8px;
+  height: 8px;
+  background-color: #16a34a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+button {
+  background-color: #1D4ED8;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 40px;
+}
