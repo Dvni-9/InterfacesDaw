@@ -24,14 +24,15 @@ figure.imagen-box {
   border-radius: 8px;
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
 
 figure.imagen-box img {
   width: 220px;
   height: auto;
   display: block;
+  align-items: center;
 }
 
 .oferta {
