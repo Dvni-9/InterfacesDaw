@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkterfaces - Estudio de Tatuajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Inkterfaces Studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#artistas">Artistas</a></li>
+                    <li><a href="#reserva">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Estudio de tatuajes y arte corporal</h2>
+            <p>Diseños exclusivos y personalizados en Barcelona.</p>
+            <a href="#reserva" class="btn">Pedir Cita</a>
+        </div>
+    </section>
+
+   
+    <section id="nosotros" class="seccion">
+        <div class="container">
+            <h2>Sobre el Estudio</h2>
+            <p>En Inkterfaces nos especializamos en tatuajes de línea fina, blackwork y microrealismo. Garantizamos la máxima higiene y un trato cercano.</p>
+            
+            <h3>Metodología SCAMPER aplicada al diseño:</h3>
+            <ul>
+                <li><strong>Sustituir:</strong> Cambiamos el menú tradicional por accesos directos más visuales.</li>
+                <li><strong>Combinar:</strong> Unimos la información de los trabajos con la ficha del artista.</li>
+                <li><strong>Adaptar:</strong> Adaptamos el formulario de contacto para elegir el estilo deseado.</li>
+                <li><strong>Modificar:</strong> Modificamos la apariencia para darle un estilo limpio y accesible.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección Artistas -->
+    <section id="artistas" class="seccion gris">
+        <div class="container">
+            <h2>Nuestros Artistas</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>Lía Sol</h3>
+                    <p><strong>Estilo:</strong> Fine Line y Botánico</p>
+                    <p>Trazos finos y delicados inspirados en la naturaleza.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Niko Vale</h3>
+                    <p><strong>Estilo:</strong> Blackwork y Geométrico</p>
+                    <p>Especialista en sombras oscuras y patrones simétricos.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Mara Ink</h3>
+                    <p><strong>Estilo:</strong> Microrealismo</p>
+                    <p>Diseños pequeños con alto nivel de detalle y color.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Formulario de Reserva -->
+    <section id="reserva" class="seccion">
+        <div class="container">
+            <h2>Solicitud de Cita</h2>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="estilo">Estilo preferido:</label>
+                    <select id="estilo" name="estilo">
+                        <option value="fine-line">Fine Line</option>
+                        <option value="blackwork">Blackwork</option>
+                        <option value="microrealismo">Microrealismo</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Idea o comentario:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Inkterfaces Studio - Práctica Interfaces Web (2º DAW)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
